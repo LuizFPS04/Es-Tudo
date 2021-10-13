@@ -1,38 +1,55 @@
-import React, { useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState } from "react";
+import {
+  Container,
+  InputContainer,
+  Title,
+  ButtonContainer,
+  AuthButton,
+  LoginInput,
+  FooterText
+} from "./styles";
 
-// const express = require("express");
-// const app = express();
-// app.use(express.json());
+export default function LoginScreen({ setIsLogged }) {
+  const [cpf, setCPF] = useState("");
+  const [password, setPassword] = useState("");
+  const [secure, setSecure] = useState(true);
 
-import { TextInput, Button } from 'react-native-paper';
+  const createNewLogin = () => {
+    const login = {
+      cpf,
+      password,
+    };
 
-export default function LoginScreen({ setLogged }) {
-    const [cpf, setCPF] = useState('')
-    const [password, setPassword] = useState('')
+    return login;
+  };
 
-    const createNewLogin = () => {
-        const login = {
-            cpf,
-            password
-        }
-    }
+  return (
+    <Container>
+      <InputContainer>
+        <Title>Es-Tudo</Title>
+        <LoginInput
+          label="CPF"
+          mode="outlined"
+          keyboardType="number-pad"
+          onChangeText={(cpf) => setCPF(cpf)}
+        />
 
-
-    return (
-        <>
-            <TextInput
-                    label="CPF"
-                    mode="outlined"
-                    onChangeText={(cpf) => setCPF(cpf)}
-            />
-
-            <TextInput
-                    label="Senha"
-                    mode="outlined"
-                    onChangeText={(password) => setPassword(password)}
-            />
-            <Button mode="contained" onPress={() => console.log(createNewLogin)} >Criar conta</Button>
-        </>
-    );
+        <LoginInput
+          label="Senha"
+          mode="outlined"
+          secureTextEntry={secure}
+          right={
+            <LoginInput.Icon name="eye" onPress={() => setSecure(!secure)} />
+          }
+          onChangeText={(password) => setPassword(password)}
+        />
+      </InputContainer>
+      <ButtonContainer>
+        <AuthButton mode="outlined" onPress={() => setIsLogged(true)}>
+          Fazer Login
+        </AuthButton>
+      </ButtonContainer>
+      <FooterText>Ainda não possui uma conta? Registar-se!</FooterText>
+    </Container>
+  );
 }
