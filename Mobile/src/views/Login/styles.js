@@ -50,6 +50,5 @@ export const FooterText = styled.Text`
 
 export const AnimationWrapper = styled.View`
   width: 75%;
-  height: 40%;
-  padding: 8px;
+  height: 35%;
 `;

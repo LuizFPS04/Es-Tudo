@@ -79,7 +79,7 @@ export default function LoginScreen({ setIsLogged }) {
         />
       </InputContainer>
       <ButtonContainer>
-        <AuthButton mode="outlined" onPress={() => setIsLogged(true)}>
+        <AuthButton mode="outlined" disabled={cpf.length === 14 && password.length >= 1 ? false : true} onPress={() => setIsLogged(true)}>
           Fazer Login
         </AuthButton>
       </ButtonContainer>
