@@ -1,1 +1,1 @@
-# es-tudo
+# Es-Tudo (Projeto de Pesquisa - IFMG)
