@@ -4,7 +4,6 @@ import { TextInput, Button } from "react-native-paper";
 export const Container = styled.View`
   flex: 1;
   align-items: center;
-  justify-content: center;
 `;
 
 export const InputContainer = styled.View`
@@ -44,7 +43,13 @@ export const AuthButton = styled(Button).attrs({
 export const FooterText = styled.Text`
   position: absolute;
   bottom: 8px;
-  font-size: 13px;
+  font-size: 15px;
   align-self: center;
   color: #47a79c;
+`;
+
+export const AnimationWrapper = styled.View`
+  width: 75%;
+  height: 40%;
+  padding: 8px;
 `;
