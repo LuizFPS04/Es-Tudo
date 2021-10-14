@@ -60,7 +60,7 @@ export default function NewQuiz() {
   }
 
   const { isLoading, value, error } = useFetch(
-    "https://cuddly-lizard-86.loca.lt/questions"
+    "http://localhost:8888/questions"
   );
 
   return (
