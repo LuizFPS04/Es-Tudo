@@ -46,7 +46,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/:tipo_pessoaID', async (req, res) => {
+router.get('/:tipo_pessoaId', async (req, res) => {
     try{
         const tipo_pessoa = await Tipo_Pessoa.findById(req.params.tipo_pessoaId);
         
