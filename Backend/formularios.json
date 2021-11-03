@@ -1,0 +1,266 @@
+[{
+  "_id": {
+    "$oid": "617c747bca18582310f1426d"
+  },
+  "descricao": "Inventário de Estilo de Aprendizagem N-ILS (Novo Index of Learning Styles)",
+  "pergunta_resposta": {
+    "pergunta_resposta_1": {
+      "pergunta_1": "1) Quando estou aprendendo algum assunto novo, gosto de:",
+      "conj_resposta_1": [
+        "a) Primeiramente, discuti-lo com outras pessoas.",
+        "b) Primeiramente, refletir sobre ele individualmente."
+      ]
+    },
+    "pergunta_resposta_2": {
+      "pergunta_2": "2) Se eu fosse um professor, eu preferiria ensinar uma disciplina:",
+      "conj_resposta_2": [
+        "a) Que trate com fatos e situações reais.",
+        "b) Que trate com ideias e teorias."
+      ]
+    },
+    "pergunta_resposta_3": {
+      "pergunta_3": "3) Eu prefiro obter novas informações através de:",
+      "conj_resposta_3": [
+        "a) Figuras, diagramas, gráficos ou mapas.",
+        "b) Instruções escritas ou informações verbais."
+      ]
+    },
+    "pergunta_resposta_4": {
+      "pergunta_4": "4) Quando resolvo problemas de matemática, eu:",
+      "conj_resposta_4": [
+        "a) Usualmente preciso resolvê-los por etapas para então chegar a solução.",
+        "b) Usualmente antevejo a solução, mas às vezes me complico para resolver cada uma das etapas."
+      ]
+    },
+    "pergunta_resposta_5": {
+      "pergunta_5": "5) Em um grupo de estudo, trabalhando um material difícil, eu provavelmente:",
+      "conj_resposta_5": [
+        "a) Tomo a iniciativa e contribuo com ideias.",
+        "b) Assumo uma posição observadora e analiso os fatos."
+      ]
+    },
+    "pergunta_resposta_6": {
+      "pergunta_6": "6) Acho mais fácil aprender:",
+      "conj_resposta_6": [
+        "a) A partir de experimentos.",
+        "b) A partir de conceitos."
+      ]
+    },
+    "pergunta_resposta_7": {
+      "pergunta_7": "7) Ao ler um livro:",
+      "conj_resposta_7": [
+        "a) Eu primeiramente observo as figuras e desenhos.",
+        "b) Eu primeiramente me atento para o texto escrito."
+      ]
+    },
+    "pergunta_resposta_8": {
+      "pergunta_8": "8) É mais importante para mim que o professor:",
+      "conj_resposta_8": [
+        "a) Apresente a matéria em etapas sequenciais.",
+        "b) Apresente um quadro geral e relacione a matéria com outros assuntos."
+      ]
+    },
+    "pergunta_resposta_9": {
+      "pergunta_9": "9) Nas turmas em que já estudei, eu:",
+      "conj_resposta_9": [
+        "a) Fiz amizade com muitos colegas.",
+        "b) Fui reservado e fiz amizade com alguns colegas."
+      ]
+    },
+    "pergunta_resposta_10": {
+      "pergunta_10": "10) Ao ler textos técnicos ou científicos, eu prefiro:",
+      "conj_resposta_10": [
+        "a) Algo que me ensine como fazer alguma coisa.",
+        "b) Algo que me apresente novas ideias para pensar."
+      ]
+    },
+    "pergunta_resposta_11": {
+      "pergunta_11": "11) Relembro melhor:",
+      "conj_resposta_11": [
+        "a) O que vejo.",
+        "b) O que ouço."
+      ]
+    },
+    "pergunta_resposta_12": {
+      "pergunta_12": "12) Eu aprendo:",
+      "conj_resposta_12": [
+        "a) Num ritmo constante, etapa por etapa.",
+        "b) Em saltos. Fico confuso(a) por algum tempo e então, repentinamente, tenho um 'estalo'."
+      ]
+    },
+    "pergunta_resposta_13": {
+      "pergunta_13": "13) Eu prefiro estudar:",
+      "conj_resposta_13": [
+        "a) Em grupo.",
+        "b) Sozinho."
+      ]
+    },
+    "pergunta_resposta_14": {
+      "pergunta_14": "14) Prefiro a ideia do:",
+      "conj_resposta_14": [
+        "a) Concreto.",
+        "b) Conceitual."
+      ]
+    },
+    "pergunta_resposta_15": {
+      "pergunta_15": "15) Quando vejo um diagrama ou esquema em uma aula, relembro mais facilmente:",
+      "conj_resposta_15": [
+        "a) A figura.",
+        "b) O que o professor disse a respeito dela."
+      ]
+    },
+    "pergunta_resposta_16": {
+      "pergunta_16": "16) Quando estou aprendendo um assunto novo, eu prefiro:",
+      "conj_resposta_16": [
+        "a) Concentrar-me exclusivamente no assunto, aprendendo o máximo possível.",
+        "b) Tentar estabelecer conexões entre o assunto e outros com ele relacionados."
+      ]
+    },
+    "pergunta_resposta_17": {
+      "pergunta_17": "17) Normalmente eu sou considerado(a):",
+      "conj_resposta_17": [
+        "a) Extrovertido (a).",
+        "b) Reservado (a)."
+      ]
+    },
+    "pergunta_resposta_18": {
+      "pergunta_18": "18) Prefiro disciplinas que enfatizam:",
+      "conj_resposta_18": [
+        "a) Material concreto (fatos, dados).",
+        "b) Material abstrato (conceitos, teorias)."
+      ]
+    },
+    "pergunta_resposta_19": {
+      "pergunta_19": "19) Quando alguém está me mostrando dados, eu prefiro:",
+      "conj_resposta_19": [
+        "a) Diagramas ou gráficos.",
+        "b) Texto sumarizando os resultados."
+      ]
+    },
+    "pergunta_resposta_20": {
+      "pergunta_20": "20) Quando estou resolvendo um problema eu:",
+      "conj_resposta_20": [
+        "a) Primeiramente penso nas etapas do processo para chegar a solução.",
+        "b) Primeiramente penso nas consequências ou aplicações da solução."
+      ]
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618024482415612a7cc542c7"
+  },
+  "descricao": "Inventário de Estilo de Aprendizagem de Kolb",
+  "pergunta_resposta": {
+    "pergunta_resposta_1": {
+      "pergunta_1": "1) Enquanto aprendo...",
+      "conj_resposta_1": {
+        "questao_1": "gosto de lidar com meus sentimentos",
+        "questao_2": "gosto de pensar sobre ideias",
+        "questao_3": "gosto de estar fazendo coisas",
+        "questao_4": "gosto de observar e escutar"
+      }
+    },
+    "pergunta_resposta_2": {
+      "pergunta_2": "2) Aprendo melhor quando...",
+      "conj_resposta_2": {
+        "questao_2_1": "ouço e observo com atenção",
+        "questao_2_2": "me apoio em pensamento lógico",
+        "questao_2_3": "confio em meus palpites e impressões",
+        "questao_2_4": "trabalho com afinco para executar a tarefa"
+      }
+    },
+    "pergunta_resposta_3": {
+      "pergunta_3": "3) Quando estou aprendendo...",
+      "conj_resposta_3": {
+        "questao_3_1": "tendo a buscar explicações para as coisas",
+        "questao_3_2": "sou responsável acerca das coisas",
+        "questao_3_3": "fico quieto e concentrado",
+        "questao_3_4": "tenho sentimentos e reações fortes"
+      }
+    },
+    "pergunta_resposta_4": {
+      "pergunta_4": "4) Aprendo...",
+      "conj_resposta_4": {
+        "questao_4_1": "sentindo",
+        "questao_4_2": "fazendo",
+        "questao_4_3": "observando",
+        "questao_4_4": "pensando"
+      }
+    },
+    "pergunta_resposta_5": {
+      "pergunta_5": "5) Enquanto aprendo...",
+      "conj_resposta_5": {
+        "questao_5_1": "me abro a novas experiências",
+        "questao_5_2": "examino todos os ângulos da questão",
+        "questao_5_3": "gosto de analisar as coisas, desdobrá-las em partes",
+        "questao_5_4": "gosto de testar as coisas"
+      }
+    },
+    "pergunta_resposta_6": {
+      "pergunta_6": "6) Enquanto estou aprendendo...",
+      "conj_resposta_6": {
+        "questao_6_1": "sou uma pessoa observadora",
+        "questao_6_2": "sou uma pessoa ativa",
+        "questao_6_3": "sou uma pessoa intuitiva",
+        "questao_6_4": "sou uma pessoa lógica"
+      }
+    },
+    "pergunta_resposta_7": {
+      "pergunta_7": "7) Aprendo melhor através de...",
+      "conj_resposta_7": {
+        "questao_7_1": "observação",
+        "questao_7_2": "interações pessoais",
+        "questao_7_3": "teorias racionais",
+        "questao_7_4": "oportunidades para experimentar e praticar"
+      }
+    },
+    "pergunta_resposta_8": {
+      "pergunta_8": "8) Enquanto aprendo...",
+      "conj_resposta_8": {
+        "questao_8_1": "gosto de ver os resultados do meu trabalho",
+        "questao_8_2": "gosto de ideias e teorias",
+        "questao_8_3": "penso antes de agir",
+        "questao_8_4": "sinto-me pessoalmente envolvido no assunto"
+      }
+    },
+    "pergunta_resposta_9": {
+      "pergunta_9": "9) Aprendo melhor quando...",
+      "conj_resposta_9": {
+        "questao_9_1": "me apoio em minhas observações",
+        "questao_9_2": "me apoio em minhas impressões",
+        "questao_9_3": "posso experimentar coisas por mim mesmo",
+        "questao_9_4": "me apoio em minhas ideias"
+      }
+    },
+    "pergunta_resposta_10": {
+      "pergunta_10": "10) Quando estou aprendendo...",
+      "conj_resposta_10": {
+        "questao_10_1": "sou uma pessoa compenetrada",
+        "questao_10_2": "sou uma pessoa flexível",
+        "questao_10_3": "sou uma pessoa responsável",
+        "questao_10_4": "sou uma pessoa racional"
+      }
+    },
+    "pergunta_resposta_11": {
+      "pergunta_11": "11) Enquanto aprendo...",
+      "conj_resposta_11": {
+        "questao_11_1": "me envolvo todo",
+        "questao_11_2": "gosto de observar",
+        "questao_11_3": "avalio as coisas",
+        "questao_11_4": "gosto de estar ativo"
+      }
+    },
+    "pergunta_resposta_12": {
+      "pergunta_12": "12) Aprendo melhor quando...",
+      "conj_resposta_12": {
+        "questao_12_1": "analiso as ideias",
+        "questao_12_2": "sou receptivo e de mente aberta",
+        "questao_12_3": "sou cuidadoso",
+        "questao_12_4": "sou prático"
+      }
+    }
+  },
+  "cpf": "111.111.111-11",
+  "__v": 0
+}]
