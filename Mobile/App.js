@@ -1,5 +1,5 @@
 import * as React from "react";
-import { View, Text, StatusBar } from "react-native";
+import { StatusBar } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { NavigationContainer } from "@react-navigation/native";
 
@@ -29,6 +29,7 @@ const createScreenOptions = ({ route }) => {
 
 function App() {
   const [isLogged, setIsLogged] = useState(false);
+  const [data, setData] = useState([]);
 
   return (
     <>
@@ -42,7 +43,11 @@ function App() {
               inactiveTintColor: "#BBBBBB",
             }}
           >
-            <Tab.Screen name="Novo Questionário" component={NewQuizScreen} />
+            <Tab.Screen
+              name="Novo Questionário"
+              component={NewQuizScreen}
+              setData={setData}
+            />
             <Tab.Screen name="Meu Aprendizado" component={MyLearnScreen} />
             <Tab.Screen name="Configurações" component={SettingsScreen} />
           </Tab.Navigator>
