@@ -18,7 +18,7 @@ router.post('/', async (req, res) => {
 
 router.put('/:tipo_pessoaId', async (req, res) => {
     try{
-        const tipo_pessoa = await Tipo_Pessoa.findByIdAndUpdate({'_id': req.params.id}, req.body, {new: true});
+        const tipo_pessoa = await Tipo_Pessoa.findByIdAndUpdate({'_id': req.params.id.tipo_pessoaId}, req.body, {new: true});
 
         return res.send({ tipo_pessoa });
     }catch (err){
@@ -46,7 +46,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/:tipo_pessoaID', async (req, res) => {
+router.get('/:tipo_pessoaId', async (req, res) => {
     try{
         const tipo_pessoa = await Tipo_Pessoa.findById(req.params.tipo_pessoaId);
         
