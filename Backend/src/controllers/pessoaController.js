@@ -18,7 +18,7 @@ router.post('/', async (req, res) => {
 
 router.put('/:pessoaId', async (req, res) => {
     try{
-        const pessoa = await Pessoa.findByIdAndUpdate({'_id': req.params.id}, req.body, {new: true});
+        const pessoa = await Pessoa.findByIdAndUpdate({'_id': req.params.id.pessoaId}, req.body, {new: true});
 
         return res.send({ pessoa });
     }catch (err){
@@ -46,7 +46,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/:pessoaID', async (req, res) => {
+router.get('/:pessoaId', async (req, res) => {
     try{
         const pessoa = await Pessoa.findById(req.params.pessoaId).populate('turma', 'formulario_id', 'tipo_pessoa_id', 'login_id');
 
