@@ -17,7 +17,7 @@ router.post('/', async (req, res) => {
 
 router.put('/:turmaId', async (req, res) => {
     try{
-        const turma = await Turma.findByIdAndUpdate({'_id': req.params.id}, req.body, {new: true});
+        const turma = await Turma.findByIdAndUpdate({'_id': req.params.id.turmaId}, req.body, {new: true});
 
         return res.send({ turma });
     }catch (err){
@@ -45,7 +45,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/:turmaID', async (req, res) => {
+router.get('/:turmaId', async (req, res) => {
     try{
         const turma = await Turma.findById(req.params.turmaId);
         return res.send({ turma });
