@@ -28,7 +28,7 @@ const createScreenOptions = ({ route }) => {
 };
 
 function App() {
-  const [isLogged, setIsLogged] = useState(false);
+  const [isLogged, setIsLogged] = useState(true);
   const [data, setData] = useState([]);
 
   return (

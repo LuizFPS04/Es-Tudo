@@ -55,9 +55,11 @@ export default function LoginScreen({ setIsLogged }) {
           maxLength={14}
           keyboardType="number-pad"
           right={
-            cpf.length > 0 && (
+            cpf.length > 0 ? (
               <LoginInput.Icon name="close" onPress={() => setCPF("")} />
-            ) 
+            ) : (
+              ""
+            )
           }
           onChangeText={(cpf) => setCPF(cpfMask(cpf))}
         />
