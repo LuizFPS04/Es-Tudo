@@ -18,7 +18,7 @@ router.post('/', async (req, res) => {
 
 router.put('/:loginId', async (req, res) => {
     try{
-        const login = await Login.findByIdAndUpdate({'_id': req.params.id}, req.body, {new: true});
+        const login = await Login.findByIdAndUpdate({'_id': req.params.id.loginId}, req.body, {new: true});
 
         return res.send({ login });
     }catch (err){
