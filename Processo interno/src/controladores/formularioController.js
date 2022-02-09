@@ -46,7 +46,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/:formularioID', async (req, res) => {
+router.get('/:formularioId', async (req, res) => {
     try{
         const formulario = await Formulario.findById(req.params.formularioId);
         
